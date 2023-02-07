@@ -1,3 +1,16 @@
+/* 
+Aprendendo CSS.
+Seletor universal a título de exemplo:
+
+* {
+    color: gray;   
+}
+
+Site adobe: https://color.adobe.com/pt/create/color-contrast-analyzer
+Tamanho: font-size; distância entre linhas: line-height; espessura: font-weight; família: font-family;
+
+*/
+
 h1 {
     color: blue;
     border-bottom: 1px solid black;
@@ -6,4 +19,36 @@ h1 {
 p {
     font-size: 20px;
     color: blueviolet;
+    line-height: 75px;
+    font-weight: 1750;
+}
+
+/* Seletor de classe */
+.mercado-trabalho {
+    background-color: #004746;
+    color: #FFC745;
+    width: 950PX;
+    height: 250px;
+}
+
+/* Seletor por ID */
+#modularizacao {
+    background-color: aqua;
+    width: 550PX;
+    height: 250px;
+}
+
+/* Seletor de atributo */
+input[type] {
+    background-color: blue;
+}
+
+/* Seletor de atributo terminados em ".com.br" */
+a[href$=".com.br"] {
+    color: red;
+}
+
+/* Seletor input por tipo */
+input[type='tel'] {
+    background-color: aquamarine;
 }
